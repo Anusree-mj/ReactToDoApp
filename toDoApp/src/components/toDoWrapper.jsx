@@ -4,7 +4,7 @@ import AddTodo from '../components/addToDo';
 import ToDoList from '../components/toDoList';
 import CompletedTask from '../components/completedToDos';
 
-const ToDoWrapper=()=> {
+const ToDoWrapper = () => {
   const [toDos, setToDos] = useState([]);
   const [selectedButton, setSelectedButton] = useState('todo')
 
@@ -38,10 +38,16 @@ const ToDoWrapper=()=> {
     });
   };
 
-  // updated task
-  const getUpdateToDo = (todo) => {
-
-  }
+  const updateTodo = (id, newText) => {
+    console.log('entered in update ufnctin')
+    setToDos((prevToDos) => {
+      const updatedToDos = prevToDos.map((todo) =>
+        todo.id === id ? { ...todo, text: newText } : todo
+      );
+      return updatedToDos;
+    });
+  };
+  
 
   const handleButtonClick = (buttonType) => {
     setSelectedButton(buttonType);
@@ -63,8 +69,8 @@ const ToDoWrapper=()=> {
           toDos={toDos}
           completeATask={completeATask}
           deleteATask={deleteATask}
-          getUpdateToDo={getUpdateToDo}
           selectedButton={selectedButton}
+          updateTodo={updateTodo}
         />
 
         {/* completed tasks */}

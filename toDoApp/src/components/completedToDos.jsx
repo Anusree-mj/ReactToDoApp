@@ -6,7 +6,7 @@ const CompletedTask = ({ completedTasks, showCompleted }) => {
       {completedTasks.map((value) => (
         <div className="completed-todo" key={value.id}>
           <div className="left">
-            <p>{value.text} </p>
+            <p className='completedTxts'>{value.text} </p>
           </div>
           <div className="right">
             <i className="fas fa-circle-check"></i>
