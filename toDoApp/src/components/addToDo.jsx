@@ -27,7 +27,7 @@ const AddTodo = ({ onAddTodo }) => {
       </div>
      
       <div className="input">
-        <input value={toDo} onChange={(e) => setToDo(e.target.value)} onClick={clearValidation} type="text" placeholder="🖊️ Add item..." />
+        <input value={toDo} onChange={(e) => setToDo(e.target.value)} onClick={clearValidation} type="text" placeholder="🖊️ Add task..." />
         <i onClick={validateAndAddTodo} className="fas fa-plus"></i>
       </div>
 

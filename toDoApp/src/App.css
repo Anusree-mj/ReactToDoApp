@@ -90,7 +90,7 @@ h3 {
 
 .app .todos .todo .left p {
   margin-left: 3px;
-  font-size: 1.4rem;
+  font-size: 1.2rem;
   font-weight: 700;
   font-style: normal;
   color: rgb(168, 50, 3);
@@ -148,7 +148,7 @@ h3 {
 }
 .completedTxts{
   margin-left: 3px;
-  font-size: 1.3rem;
+  font-size: 1.2rem;
   font-weight: 700;
   font-style: normal;
   color: rgb(168, 50, 3);
