@@ -11,7 +11,7 @@ const AddTodo = ({ onAddTodo }) => {
       setToDo('');
       setValidationError('');
     } else {
-      setValidationError('Please enter a valid todo item.');
+      setValidationError('*Please enter a valid todo item!');
     }
   };
 
@@ -30,7 +30,7 @@ const AddTodo = ({ onAddTodo }) => {
         <input value={toDo} onChange={(e) => setToDo(e.target.value)} onClick={clearValidation} type="text" placeholder="🖊️ Add task..." />
         <i onClick={validateAndAddTodo} className="fas fa-plus"></i>
       </div>
-
+<br />
       <span className='validationSpan'>{validationError}</span>
     </div>
   );
