@@ -2,6 +2,10 @@
 
 This is a simple To-Do application built with React JavaScript. It allows users to add, delete, update, mark as completed, and view completed tasks.
 
+## UI Demo
+
+![Screenshot 1](/public/images/ui.png)
+
 ## Features
 
 - **Add To-Do**: Users can add new tasks to the list.
@@ -27,10 +31,7 @@ This is a simple To-Do application built with React JavaScript. It allows users 
 5. To view completed tasks, click on the "Completed" tab.
 
 ## Technologies used
-** React **
-** Javascript **
-
-## UI Demo
-![Screenshot 1](/public/images/ui.png)
+** React 
+** Javascript 
 
 ---
