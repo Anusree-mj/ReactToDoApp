@@ -31,7 +31,7 @@ This is a simple To-Do application built with React JavaScript. It allows users 
 5. To view completed tasks, click on the "Completed" tab.
 
 ## Technologies used
-** React 
-** Javascript 
+- React
+- Javascript 
 
 ---
