@@ -27,9 +27,10 @@ This is a simple To-Do application built with React JavaScript. It allows users 
 5. To view completed tasks, click on the "Completed" tab.
 
 ## Technologies used
+** React **
+** Javascript **
 
+## UI Demo
+![Screenshot 1](/public/images/ui.png)
 
-
-## License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+---
